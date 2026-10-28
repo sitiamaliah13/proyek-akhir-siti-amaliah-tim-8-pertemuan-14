@@ -1,0 +1,139 @@
+# PROPOSAL PROYEK AKHIR
+
+## 1. Judul Proyek
+
+**Kalkulator Geometri Bangun Datar**
+
+Nama: Siti Amaliah  
+NIM: 2225250223  
+Kelas: 3E  
+Mata Kuliah: Algoritma dan Pemrograman
+
+## 2. Latar Belakang
+
+Bangun datar merupakan salah satu materi dalam pembelajaran matematika yang melibatkan perhitungan luas dan keliling. Program Kalkulator Geometri Bangun Datar dirancang untuk membantu pengguna melakukan perhitungan tersebut menggunakan bahasa pemrograman Python melalui terminal.
+
+## 3. Pengguna dan Tujuan
+
+**Pengguna:** Pelajar, mahasiswa, dan pengguna yang membutuhkan bantuan menghitung luas dan keliling bangun datar.
+
+**Tujuan:** Merancang program Python yang dapat menghitung luas dan keliling persegi, persegi panjang, dan lingkaran dengan masukan dari pengguna.
+
+## 4. Ruang Lingkup
+
+Program mencakup:
+1. Perhitungan luas dan keliling persegi.
+2. Perhitungan luas dan keliling persegi panjang.
+3. Perhitungan luas dan keliling lingkaran.
+4. Menu pilihan bangun datar.
+5. Validasi masukan pengguna.
+6. Penampilan hasil perhitungan melalui terminal.
+
+Program dibuat sebagai aplikasi berbasis terminal menggunakan Python.
+
+## 5. Kebutuhan
+
+**Perangkat lunak:**
+- Python.
+- Visual Studio Code.
+- Git.
+- Akun GitHub.
+
+**Kebutuhan program:**
+- Menu untuk memilih bangun datar.
+- Masukan ukuran sesuai bangun datar yang dipilih.
+- Proses perhitungan luas dan keliling.
+- Validasi masukan.
+- Keluaran berupa hasil perhitungan.
+
+## 6. Input, Process, Output (IPO)
+
+| Input | Process | Output |
+|---|---|---|
+| Sisi persegi | Luas = sisi × sisi; keliling = 4 × sisi | Luas dan keliling persegi |
+| Panjang dan lebar persegi panjang | Luas = panjang × lebar; keliling = 2 × (panjang + lebar) | Luas dan keliling persegi panjang |
+| Jari-jari lingkaran | Luas = π × jari-jari²; keliling = 2 × π × jari-jari | Luas dan keliling lingkaran |
+| Pilihan menu | Memeriksa pilihan pengguna | Menu yang dipilih atau pesan kesalahan |
+
+## 7. Algoritma
+
+1. Mulai.
+2. Tampilkan menu pilihan bangun datar.
+3. Minta pengguna memilih jenis bangun datar.
+4. Jika memilih persegi, minta panjang sisi.
+5. Jika memilih persegi panjang, minta panjang dan lebar.
+6. Jika memilih lingkaran, minta jari-jari.
+7. Periksa validitas masukan.
+8. Hitung luas dan keliling berdasarkan jenis bangun datar.
+9. Tampilkan hasil perhitungan.
+10. Jika pilihan menu tidak valid, tampilkan pesan kesalahan.
+11. Selesai.
+
+## 8. Struktur Program
+
+```text
+kalkulator-geometri-siti-amaliah/
+├── README.md
+├── proposal.md
+├── .gitignore
+├── src/
+│   ├── main.py
+│   ├── persegi.py
+│   ├── persegi_panjang.py
+│   └── lingkaran.py
+├── tests/
+│   └── test_case.md
+└── output/
+    └── .gitkeep
+```
+
+Keterangan:
+- `README.md`: dokumentasi proyek.
+- `proposal.md`: rancangan proyek.
+- `.gitignore`: daftar file yang tidak perlu dilacak Git.
+- `src/main.py`: menu dan alur utama program.
+- `src/persegi.py`: perhitungan persegi.
+- `src/persegi_panjang.py`: perhitungan persegi panjang.
+- `src/lingkaran.py`: perhitungan lingkaran.
+- `tests/test_case.md`: dokumentasi test case.
+- `output/.gitkeep`: menjaga folder output tetap tercatat di repositori.
+
+## 9. Struktur Data
+
+Program menggunakan variabel numerik untuk menyimpan ukuran bangun datar dan hasil perhitungan. Pilihan menu digunakan untuk menentukan jenis bangun datar yang akan diproses.
+
+## 10. Test Case
+
+| No. | Skenario | Input | Hasil yang Diharapkan |
+|---|---|---|---|
+| 1 | Menghitung persegi | Sisi = 4 | Luas = 16 dan keliling = 16 |
+| 2 | Menghitung persegi panjang | Panjang = 5, lebar = 3 | Luas = 15 dan keliling = 16 |
+| 3 | Menghitung lingkaran | Jari-jari = 7 | Luas dan keliling ditampilkan sesuai rumus |
+| 4 | Ukuran bernilai nol | Sisi = 0 | Luas = 0 dan keliling = 0 |
+| 5 | Masukan ukuran negatif | Sisi = -2 | Masukan ditolak atau ditangani dengan pesan yang sesuai |
+| 6 | Masukan bukan angka | Sisi = teks | Program menampilkan pesan kesalahan |
+| 7 | Pilihan menu tidak valid | Pilihan = 9 | Program menampilkan pesan pilihan tidak valid |
+
+## 11. Pembagian Tugas
+
+Proyek dikerjakan secara individu oleh Siti Amaliah.
+
+Tanggung jawab:
+- Merancang proposal dan algoritma.
+- Menyusun struktur program.
+- Mengimplementasikan program Python.
+- Menyiapkan dan menjalankan pengujian.
+- Menyusun dokumentasi.
+- Mengelola repositori GitHub.
+
+## 12. Jadwal
+
+| Pertemuan | Rencana Kegiatan |
+|---|---|
+| Pertemuan 14 | Menyusun rancangan proyek, proposal, struktur program, algoritma, dan test case |
+| Pertemuan 15 | Mengimplementasikan fitur awal, mengintegrasikan program, menguji, dan memperbaiki kesalahan |
+| Pertemuan 16 | Menyelesaikan dokumentasi, menyiapkan demonstrasi, dan melakukan evaluasi proyek |
+
+## 13. Repository URL
+
+URL repositori GitHub: **Diisi setelah repositori dibuat.**
